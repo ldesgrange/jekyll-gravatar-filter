@@ -13,7 +13,7 @@ module Jekyll
     private :hash
 
     def hash(email)
-      email_address = email.downcase.strip
+      email_address = email ? email.downcase.strip : ''
       Digest::MD5.hexdigest(email_address)
     end
   end
