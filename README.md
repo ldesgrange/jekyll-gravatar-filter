@@ -1,6 +1,6 @@
 # jekyll_gravatar_filter #
 
-This is a liquid filter to convert an email to a gravater URL.
+This is a liquid filter to convert an email to a [gravatar][02] URL.
 
 ## Installation
 
@@ -17,3 +17,4 @@ See [gravatar filter on my blog][01].
 See LICENSE file.
 
 [01]: http://blog.desgrange.net/2012/07/02/gravatar-filter-jekyll.html
+[02]: http://www.gravatar.com
